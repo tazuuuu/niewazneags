@@ -18,7 +18,7 @@ let refreshOnline = guild => {
     })
     if(count > parseInt(glob.getItem('maxOnline'))){
         glob.setItem('maxOnline', count)
-        guild.channels.get('532216729699352577').setName('• Rekord Online: ' + count)
+        guild.channels.get('532216729699352577').setName('• Rekord Onlin: ' + count)
     }
     guild.channels.get('532216767888752641').setName('• Online: ' + count)
     guild.channels.get('532216782006517780').setName('• Administracja Online: ' + admCount )
